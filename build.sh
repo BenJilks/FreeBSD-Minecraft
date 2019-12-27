@@ -29,6 +29,7 @@ cd bin
 ./build_java.sh glfw
 mkdir RELEASE/lwjgl
 cp RELEASE/lwjgl-core/lwjgl-core.jar RELEASE/lwjgl/lwjgl.jar
+rm libs/libglfw.so libs/libopenal.so
 cd ../..
 
 

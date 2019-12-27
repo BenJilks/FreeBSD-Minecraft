@@ -1,6 +1,6 @@
-#!/usr/local/bin/bash
+#!/bin/sh
 
-ROOT=$(pwd)
+ROOT=/usr/home/benjilks/dump/minecraft-freebsd
 
 LWJGL_JLP_OVRD="${ROOT}/lwjgl3/bin/libs/"
 
