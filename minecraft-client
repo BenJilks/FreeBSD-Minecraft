@@ -1,0 +1,6 @@
+#!/bin/sh
+export JAVA_HOME=/usr/local/openjdk8
+
+exec ${JAVA_HOME}/bin/java -Djava.nio.file.spi.DefaultFileSystemProvider=sun.nio.fs.BsdFileSystemProvider \
+ -Dos.name=Linux -jar `pwd`/Minecraft.jar
+
