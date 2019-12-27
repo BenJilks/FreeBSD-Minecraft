@@ -15,7 +15,7 @@ cp patch/linux/* lwjgl3/config/linux/
 
 # Build LWJGL
 cd lwjgl3
-ant -Dos.name=Linux -Dplatform=linux compile-templates
+ant -Dos.name=Linux -Dplatform=linux compile-templates compile-native
 cp ../patch/org_lwjgl_stb_STBVorbis.c modules/lwjgl/stb/src/generated/c/org_lwjgl_stb_STBVorbis.c
 ant -Dos.name=Linux -Dplatform=linux compile-native
 
